@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>IndieBrew | SignUp Form</title>
+</head>
+<body>
+    <div class="main-container">
+        <nav class="navigation">
+            <img src="Assets/Logo.svg" alt="" class="logo">
+    
+            <div class="homepage">
+                <div class="homepage_box">
+                    <img src="Assets/Back Arrow.svg" alt="">
+                </div>
+                <span class="homepage_text"><b>Back to homepage</b></span>
+            </div>
+        </nav>
+
+        <main>
+            <section class="info">
+                <h1 class="info-title">
+                    Create your personalised feed.
+                </h1>
+
+
+                <div class="info-content-1">
+                    <img src="https://img.icons8.com/fluency/30/000000/party-baloon.png"/>
+                    <p><b>Over 20 resources.</b>With resources ranging from Reddit to indieHackers, we've got all your needs covered.</p>
+                </div>
+
+                <div class="info-content-2">
+                    
+                    <img src="https://img.icons8.com/emoji/30/000000/rolled-up-newspaper.png"/>
+                    <p><b>Delivered Weekly.</b>Every week at exactly Tuesday 12:00 PM EST - expect a value-packed digest right in your email.</p>
+                </div>
+
+                <div class="info-content-3">
+                    <img src="https://img.icons8.com/external-smashingstocks-flat-smashing-stocks/30/000000/external-lightbulb-education-smashingstocks-flat-smashing-stocks.png"/>
+                    <p><b>Unlimited ideas.</b>With all the ideas you'll be reading about, what's stopping you from creating a sustainable startup?</p>
+                </div>
+            </section>
+
+            <section class="form-group">
+                <h1>Create your IndieBrew account</h1>
+
+                <form action="" id="form">
+                    <div class="email_section">
+                        <label for="email">Email</label>
+                        <br>
+                        <input id="email" type="email" placeholder="john@example.com" autocomplete="off">
+                        <div class="error"></div>
+                    </div>
+
+                    <div class="name_section">
+                        <label for="name">Full Name</label>
+                        <br>
+                        <input id="name" type="text" placeholder="John Doe" autocomplete="off">
+                        <div class="error"></div>
+                    </div>
+                    
+                    <div class="pass_section">
+                        <label for="password">Password</label>
+                        <br>
+                        <input id="password" type="password" placeholder="At least 8 characters" autocomplete="off">
+                        <div class="error"></div>
+                    </div>
+
+                    <div class="form_msg">
+                        <input id="check" type="checkbox" id="checkbox">
+                        <span>By creating an account on IndieBrew, you agree to the <a href="#">terms & conditions</a></span>
+                        <br><br>
+                        <div class="error"></div>
+                    </div>
+
+                    <button class="btn">Create an Account</button>
+
+                </form>
+            </section>
+        </main>
+    </div>
+   
+
+    <script src="js/app.js"></script>
+    
+</body>
+</html>
